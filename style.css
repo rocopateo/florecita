@@ -13,6 +13,7 @@
 header{
     display:flex;
     justify-content: center;
+	align-items: center;
 }
  h1{
     background-image: url(imagenes/twin\ peaks\ horse.jpg);
