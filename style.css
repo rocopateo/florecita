@@ -1,0 +1,108 @@
+@font-face {
+       font-family: "IMFellEnglish"; 
+       src: url("./fonts/IM_Fell_English/IMFellEnglish-Regular.ttf") format("truetype"); 
+       font-weight: normal;      
+     }
+
+*{
+    background-color: rgb(20,20,20);
+    color:white;
+}
+
+
+
+ h1{
+    background-image: url(imagenes/twin\ peaks\ horse.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-top: 120px;
+    height: 200px;
+    width: 1500px;
+    color: black;
+    text-shadow: 0.1em 0.1em 0.2em rgb(60, 25, 25);
+    font-size: 50px;
+	text-align: center;
+ }
+h2{
+	text-align: center;
+}
+/*HOME*/
+ul{
+    padding: 20px;
+    border-style:double;
+    border-color:white;
+}
+main{
+	display: flex;
+	justify-content: space-around;	
+}
+article{
+    display:block;
+	text-align: center;
+    
+}
+
+#libre{
+    width:300px;
+    margin-right: 90px;
+    text-align: center;
+    font-size: small;
+    font-style: italic;
+}
+
+
+/*MUSEUM*/
+#tengri{
+    width: 400px;
+}
+#adorno{
+    font-style: italic;
+    margin-left: 30px;
+}
+/*CREATIONS*/
+
+#cooking{
+    display:block;
+    margin:auto;
+    
+}
+.creations p{
+    text-align: center;
+}
+
+
+/*sistema de pestañas*/
+.tabsNav{
+	position:relative; 
+	height: 300px;
+    display:flex;
+    justify-content: center;
+}
+.tabsNav input{
+	display:none;
+}
+.tab-name{
+    color:white;
+    font-family:"IMFellEnglish";
+    padding: 5px 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+    border: 1px solid white;
+    margin: 10px;
+}
+.tab-content{
+    position:absolute;
+    top: 50px;
+    left: 0px;
+    right:0px;
+    padding:15px;
+    box-sizing:border-box;
+    opacity:0;
+    z-index:0;
+}
+input:checked + label .tab-content{
+    opacity:1;
+    z-index:1;
+}
+
