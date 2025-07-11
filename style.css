@@ -10,7 +10,10 @@
 }
 
 
-
+header{
+	display:flex;
+    justify-content: center;
+}
  h1{
     background-image: url(imagenes/twin\ peaks\ horse.jpg);
     background-position: center;
