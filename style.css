@@ -9,13 +9,14 @@
     color:white;
 }
 
-
 header{
-    display:flex;
-    justify-content: center;
-	align-items: center;
+      display: flex;
+  justify-content: center;
+  align-items: center;
+
 }
- h1{
+
+ #header{
     background-image: url(imagenes/twin\ peaks\ horse.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -27,6 +28,7 @@ header{
     text-shadow: 0.1em 0.1em 0.2em rgb(60, 25, 25);
     font-size: 50px;
 	text-align:center; 
+   
  }
 h2{
 	text-align: center;
@@ -57,12 +59,44 @@ article{
 
 
 /*MUSEUM*/
+#primerafila{
+	display: flex;         /* Los hijos en fila */
+    justify-content: center; /* Centra el contenido horizontalmente */
+    align-items: center;   /* Alinea verticalmente */
+    gap: 20px;             /* Espacio entre el video y la imagen */
+    width: 100%;
+}
+#segundafila {
+    display: flex;
+    justify-content: center; /* Centra el gif y el texto */
+    flex-direction: column;  /* GIF arriba, texto abajo */
+    align-items: center;
+    margin-top: 20px;
+}
+#museummain{
+display: flex;
+  flex-direction: column;
+  gap: 20px; /* espacio entre bloques */
+}
+
 #tengri{
     width: 400px;
 }
 #adorno{
     font-style: italic;
     margin-left: 30px;
+}
+video{
+    height: 340px;
+}
+#hyperdodecahedron {
+    border-style: double;
+    border-color: aliceblue;
+    width: 200px;
+}
+#Hecatonicosachoron{
+    font-size: small;
+    font-style: italic;
 }
 /*CREATIONS*/
 
@@ -72,6 +106,10 @@ article{
     
 }
 .creations p{
+    text-align: center;
+}
+#ivan{
+    margin: 200px;
     text-align: center;
 }
 
@@ -109,5 +147,3 @@ input:checked + label .tab-content{
     opacity:1;
     z-index:1;
 }
-
-
