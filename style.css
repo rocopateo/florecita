@@ -35,6 +35,7 @@ h2{
 }
 /*HOME*/
 ul{
+    width: 280px;
     padding: 20px;
     border-style:double;
     border-color:white;
@@ -63,15 +64,21 @@ article{
 	display: flex;         /* Los hijos en fila */
     justify-content: center; /* Centra el contenido horizontalmente */
     align-items: center;   /* Alinea verticalmente */
-    gap: 20px;             /* Espacio entre el video y la imagen */
+    gap: 200px;             /* Espacio entre el video y la imagen */
     width: 100%;
 }
+
 #segundafila {
     display: flex;
     justify-content: center; /* Centra el gif y el texto */
     flex-direction: column;  /* GIF arriba, texto abajo */
     align-items: center;
     margin-top: 20px;
+}
+#dodecaedro {
+    display:flex;
+    justify-content:center;
+    flex-direction: column;
 }
 #museummain{
 display: flex;
@@ -85,9 +92,6 @@ display: flex;
 #adorno{
     font-style: italic;
     margin-left: 30px;
-}
-video{
-    height: 340px;
 }
 #hyperdodecahedron {
     border-style: double;
@@ -147,3 +151,6 @@ input:checked + label .tab-content{
     opacity:1;
     z-index:1;
 }
+
+
+
