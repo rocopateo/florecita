@@ -114,7 +114,8 @@ display: flex;
 }
 #ivan{
     margin: 200px;
-    text-align: center;
+    justify-content: center;
+    
 }
 
 
@@ -151,6 +152,5 @@ input:checked + label .tab-content{
     opacity:1;
     z-index:1;
 }
-
 
 
