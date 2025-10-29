@@ -114,7 +114,8 @@ display: flex;
 }
 #ivan{
     margin: 200px;
-    text-align: center;
+    justify-content: center;
+    
 }
 
 
